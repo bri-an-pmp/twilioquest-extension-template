@@ -1,0 +1,21 @@
+{
+  "title": "Fill the WhatsApp Template",
+  "description": "Send the same reminder on WhatsApp using an approved content template.",
+  "validation_fields": [
+    {
+      "name": "contentSid",
+      "type": "text",
+      "placeholder": "HX...",
+      "label": "Which parameter replaces Body when you send a template? (type its name)"
+    },
+    {
+      "name": "variables",
+      "type": "text",
+      "placeholder": "{\"1\":\"...\",\"2\":\"...\"}",
+      "label": "ContentVariables JSON for the appointment day and time"
+    }
+  ],
+  "rewards": {
+    "xp": 150
+  }
+}

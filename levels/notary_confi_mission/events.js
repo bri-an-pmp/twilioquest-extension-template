@@ -1,5 +1,5 @@
 module.exports = function(event, world) {
-  console.log(`VR Template: ${event.name}`);
+  console.log(`Notary Confi mission: ${event.name}`);
   console.log(event);
   console.log(world);
 }

@@ -1,0 +1,23 @@
+{
+  "title": "Notary Confi: Appointment Confirmations",
+  "description": "Help Notary Confi, a notary and Spanish ⇄ English translation office, remind clients about appointments and read their replies over SMS, WhatsApp and email. A mock workflow: nothing is really sent.",
+  "questTitle": "Notary Confi Workflow",
+  "questDescription": "Send reminders, fill a WhatsApp template, read replies and fix a broken webhook.",
+  "mission_icon": "mission_icon.png",
+  "is_mission": true,
+  "priority": 10,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "vr",
+    "options": {}
+  },
+  "flavorTextOverrides": {
+    "bookshelf": "A binder of notarized documents, each one stamped and sealed."
+  },
+  "objectives": [
+    "send_reminder",
+    "whatsapp_template",
+    "read_replies",
+    "fix_webhook"
+  ]
+}

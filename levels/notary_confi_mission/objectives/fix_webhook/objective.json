@@ -1,0 +1,27 @@
+{
+  "title": "Fix the Broken Webhook",
+  "description": "Replies stopped reaching the dashboard. Diagnose the errors and restore the flow.",
+  "validation_fields": [
+    {
+      "name": "errorCode",
+      "type": "text",
+      "placeholder": "5-digit code",
+      "label": "Twilio error code when the webhook URL can't be reached"
+    },
+    {
+      "name": "fix",
+      "type": "text",
+      "placeholder": "describe the fix",
+      "label": "What do you update after starting a new tunnel? (name the setting)"
+    },
+    {
+      "name": "smsCode",
+      "type": "text",
+      "placeholder": "5-digit code",
+      "label": "Error code for SMS blocked because the 10DLC campaign isn't approved"
+    }
+  ],
+  "rewards": {
+    "xp": 200
+  }
+}

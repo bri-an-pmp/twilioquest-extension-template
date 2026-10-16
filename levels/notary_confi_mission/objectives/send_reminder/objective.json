@@ -1,0 +1,21 @@
+{
+  "title": "Send the Appointment Reminder",
+  "description": "Draft the SMS that reminds a Notary Confi client about their appointment.",
+  "validation_fields": [
+    {
+      "name": "to",
+      "type": "text",
+      "placeholder": "+15125550142",
+      "label": "Client phone number (E.164 format)"
+    },
+    {
+      "name": "body",
+      "type": "textarea",
+      "placeholder": "Notary Confi: your appointment is ...",
+      "label": "Reminder message (one SMS segment, 160 characters or fewer)"
+    }
+  ],
+  "rewards": {
+    "xp": 150
+  }
+}

@@ -69,7 +69,7 @@
                         {
                          "name":"levelName",
                          "type":"string",
-                         "value":"vr_mission_template"
+                         "value":"notary_confi_mission"
                         }, 
                         {
                          "name":"mapName",

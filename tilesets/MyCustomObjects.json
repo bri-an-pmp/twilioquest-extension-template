@@ -43,7 +43,7 @@
                 {
                  "name":"objectiveName",
                  "type":"string",
-                 "value":"example_objective"
+                 "value":"send_reminder"
                 }],
          "type":"light-green"
         }, 

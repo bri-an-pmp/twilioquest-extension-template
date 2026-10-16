@@ -1,0 +1,33 @@
+{
+  "title": "Read the Client Replies",
+  "description": "Inbound replies arrive at the webhook. Decide which status the dashboard records for each one.",
+  "validation_fields": [
+    {
+      "name": "reply1",
+      "type": "text",
+      "placeholder": "confirmed, canceled or reschedule",
+      "label": "Body = \"confirmar\" → status?"
+    },
+    {
+      "name": "reply2",
+      "type": "text",
+      "placeholder": "confirmed, canceled or reschedule",
+      "label": "Body = \"Cancel\" → status?"
+    },
+    {
+      "name": "reply3",
+      "type": "text",
+      "placeholder": "confirmed, canceled or reschedule",
+      "label": "Body = \"R\" → status?"
+    },
+    {
+      "name": "route",
+      "type": "text",
+      "placeholder": "/webhooks/...",
+      "label": "Which app route receives email replies from SendGrid Inbound Parse?"
+    }
+  ],
+  "rewards": {
+    "xp": 150
+  }
+}
