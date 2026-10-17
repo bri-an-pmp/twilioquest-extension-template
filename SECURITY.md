@@ -22,7 +22,7 @@ Please report security issues privately through GitHub: **Security → Report a 
 | Secret patterns (AWS, GitHub, OpenAI, Anthropic, Slack, Google, Twilio, Hugging Face keys; private keys; hard-coded tokens) in every file **and every past commit** | ✅ None found |
 | Credential files ever committed (`.env`, `*.pem`, `*.key`, `id_rsa`, credentials) | ✅ None found |
 | GitHub secret-scanning alerts | ✅ 0 open alerts |
-| Commit author emails | ⚠️ Some older commits list a personal email as author; new commits use GitHub's private no-reply address. A history rewrite to replace the old address is pending the owner's approval. |
+| Commit author emails | ✅ Resolved on 2026-10-16: history rewritten so every commit uses GitHub's private no-reply address |
 | `npm audit` (runtime dependencies) | ✅ 0 known vulnerabilities |
 | CI workflow review | ✅ Fixed: retired runner (`ubuntu-18.04`) and retired artifact actions replaced; token is read-only by default and write-only for the release job; release zips no longer include `.git`; no `pull_request_target` triggers |
 | Scenario data | ✅ Mock data only (example numbers such as `+15125550142`); no real customer data |
